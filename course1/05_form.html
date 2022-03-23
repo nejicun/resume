@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <hr>
+
+    <form>
+        <div>
+            <label for="text">Ваше имя</label>
+            <input type=""  id="text">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+            <input type="email"  id="email">
+        </div>
+        <div>
+            <label for="password">Пароль</label>
+            <input type="password"  id="password">
+        </div>
+
+        <div>
+            <label for="number">Число</label>
+            <input type="number"  id="number" min="0" >
+        </div>
+
+        <div>
+            <label for="range">Число</label>
+            <input type="range"  id="range" min="0" max="10" step="1">
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input type="date"  id="date">
+        </div>
+
+        <div>
+            <label for="date">Дата</label>
+            <input type="date"  id="date">
+        </div>
+        
+        <div>
+            <label for="message"></label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        </div>
+
+        <div>
+            <label for="sex">Ваш пол</label>
+            <select id="sex">
+                <option value="male">Мужчина</option>
+                <option value="female">Женщина</option>
+                <option value="dog" selected>Собака</option>
+                <option value="dor">Дверь</option>
+                <option value="tree">Дерево</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Количество работ</label>
+            <input type="radio" name="work"> 1
+            <input type="radio" name="work"> 2
+            <input type="radio" name="work"> 3
+            <input type="radio" name="work"> 4
+            <input type="radio" name="work"> 5
+        </div>
+
+        <div>
+            <label>Количество работ</label>
+            <input type="checkbox" name="food"> молоко
+            <input type="checkbox" name="food"> яйца
+            <input type="checkbox" name="food"> Хлеб
+            <input type="checkbox" name="food"> яблоки
+            <input type="checkbox" name="food"> Второ йхлеб
+        </div>
+
+        <input type="submit" value="Отправить кнопку">
+        <button type="submit" >value="Отправить кнопку" </button>
+
+    </form>
+
+</body>
+</html>
